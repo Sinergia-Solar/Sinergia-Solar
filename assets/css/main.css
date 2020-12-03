@@ -3,3 +3,33 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+body {
+    background-color: #264653;
+}
+
+header {
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.cabecalho{
+    color: #E9C46A;
+    margin-top: 50px;
+}
+
+#logo{
+    width: 50%;
+    margin-top: 20px;
+}
+
+button {
+    background-color:#E76F51;
+    border-radius: 10px;
+    border: 1px solid #E76F51;
+    color: #E9C46A;
+    width: 90px;
+    height: 20px;
+    font-size: auto;
+}
