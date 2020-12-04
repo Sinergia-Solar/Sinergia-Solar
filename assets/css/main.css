@@ -99,7 +99,7 @@ button {
 }
 
 /* seção 2 ------------------------------------ */
-#section2{
+.new-section{
     color: white;
     text-align: center;
 }
@@ -109,20 +109,20 @@ button {
     justify-content: center;
     align-items: center;
     margin: 100px;
+    font-size: 50px;
 }
 
 .paragrafo1{
     font-size: 85px;
 }
 
-
-.ellipse1 {
-    /* display: flex; */
-    /* justify-content: space-between; */
-    /* align-items: center; */
+.paragrafo2{
+    font-size: 60px;
 }
 
-
+.paragrafo 3{
+    font-size: 85px;
+}
 
 /* seção 3 ------------------------------------ */
 .content-background2 {
@@ -131,6 +131,14 @@ button {
     background-size: 100%;
     background-repeat: no-repeat;
 }
+
+/* seção 4 ------------------------------------ */
+.new-section{
+    color: white;
+    text-align: center;
+}
+
+
 
 /* footer ------------------------------------ */
 
