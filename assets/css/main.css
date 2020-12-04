@@ -19,10 +19,12 @@ body {
     font-family: 'Raleway', sans-serif;
 }
 
+/* header/navbar ------------------------------------ */
+
 header {
     width: 100%;
     height: 50px;
-    /* position: fixed; */
+    position: fixed;
     top: 0;
     z-index: 1;
     background-color: #264653;
@@ -58,13 +60,21 @@ nav ul li a {
     font-size: larger;
 }
 
+button {
+    background-color:#E76F51;
+    border-radius: 25px;
+    border: 1px solid #E76F51;
+    color: #E9C46A;
+    width: 209px;
+    height: 51px;
+    font-size: large;
+}
+
+/* seção 1 ------------------------------------ */
+
 section{
     width: 100%;    
 }
-
-/* #ocupa-espaço{
-    height: auto;
-} */
 
 #bloco1{
     border: solid #FFEB00;
@@ -76,6 +86,7 @@ section{
     width: auto;
     font-size: 50px;
     text-align: center;
+    color: #264653;
     
 }
 
@@ -88,6 +99,7 @@ section{
     height: 80px;
     font-size: 50px;
     text-align: center;
+    color: #264653;
 }
 
 #bloco3{
@@ -99,6 +111,7 @@ section{
     height: 80px;
     font-size: 50px;
     text-align: center;
+    color: #264653;
 }
 
 #bloco4{
@@ -110,6 +123,7 @@ section{
     height: 80px;
     font-size: 50px;
     text-align: center;
+    color: #264653;
 }
 
 #content {
@@ -117,7 +131,7 @@ section{
     max-width: 100%;
 }
 
-.content-background {
+.content-background1 {
     background-image: url(../img/background1.png);
     background-position: initial;
     background-size: cover;
@@ -131,37 +145,22 @@ section{
     background-repeat: no-repeat;
 }
 
-.content-background3 {
-    background-image: url(../img/background3.png);
-    background-position: initial;
-    background-size: cover;
-    background-repeat: no-repeat;
-}
-
-button {
-    background-color:#E76F51;
-    border-radius: 25px;
-    border: 1px solid #E76F51;
-    color: #E9C46A;
-    width: 209px;
-    height: 51px;
-    font-size: large;
-}
-
 /* footer ------------------------------------ */
 
 footer {
     display: flex;
-    background: #264653;
+    background: #2A9D8F;
     padding: 10px;
     flex: end;
+    position: fixed;
 }
 
 #social{
     display: flex;
     /* justify-content: space-between; */
     padding: 5px;
-    margin-left: auto;
+    /* margin-left: auto; */
+    margin-right: 5px;
     align-items: center;
 }
 
@@ -170,4 +169,9 @@ footer {
 
 }
 
-@media screen 
+/* span-style ------------------------------------ */
+/* <style type="text/css"> */
+
+.cor-black{
+    color: black
+}
