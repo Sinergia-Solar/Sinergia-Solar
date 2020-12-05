@@ -120,7 +120,7 @@ button {
     font-size: 60px;
 }
 
-.paragrafo 3{
+.paragrafo3{
     font-size: 85px;
 }
 
@@ -137,9 +137,6 @@ button {
     color: white;
     text-align: center;
 }
-
-
-
 /* footer ------------------------------------ */
 
 footer {
@@ -181,3 +178,4 @@ footer {
 .cor-laranja{
     color:#FF852D
 }
+
