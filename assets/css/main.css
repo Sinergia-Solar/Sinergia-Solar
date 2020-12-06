@@ -102,6 +102,8 @@ button {
 .new-section{
     color: white;
     text-align: center;
+    font-family: sans-serif;
+    font-weight: 600;
 }
 
 .gaveta2 {
@@ -133,9 +135,9 @@ button {
 }
 
 /* seção 4 ------------------------------------ */
-.new-section{
-    color: white;
-    text-align: center;
+#fotos {
+    display: flex;
+    justify-content: space-around;
 }
 /* footer ------------------------------------ */
 
