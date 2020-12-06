@@ -132,6 +132,21 @@ button {
     background-position: top;
     background-size: 100%;
     background-repeat: no-repeat;
+    text-align: center;    
+}
+.paragrafo3{
+    color: #ffff;
+    font-family: Poppins;
+    font-size: 80px;
+    font-weight: 600;
+    
+}
+.paragrafo4{
+    color: #ffff;
+    font-family: Poppins;
+    font-size: 50px;
+    font-weight: 600;
+
 }
 
 /* seção 4 ------------------------------------ */
