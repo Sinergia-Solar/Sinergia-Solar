@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: Poppins;
 }
 
 
@@ -57,8 +58,11 @@ nav ul li a {
 .cabecalho {
     margin: 8%;
 }
+.façaparte{
+    color: #E76F51;
+}
 
-button {
+/* button {
     background-color:#E76F51;
     border-radius: 25px;
     border: 1px solid #E76F51;
@@ -66,7 +70,7 @@ button {
     width: 190px;
     height: 51px;
     font-size: large;
-}
+} */
 
 /* seção 1 ------------------------------------ */
 .content-background1 {
@@ -114,6 +118,9 @@ button {
     justify-content: space-around;
     align-items: center;
 }
+.iconessecao2{
+    padding: 60px;
+}
 
 .paragrafo1{
     font-size: 85px;
@@ -154,7 +161,9 @@ button {
     margin-top: 0;
     padding: 5px;
 }
-
+.iconessecao3{
+    /* padding: 40px; */
+}
 /* seção 4 ------------------------------------ */
 #fotos {
     display: flex;
@@ -166,9 +175,10 @@ button {
     border: #C25033 solid;
     border-radius: 65px;
     width: 1220px;
-    height: 1221px;
+    height: 1271px;
     margin-left: auto;
     margin-right: auto;
+    margin-top: 60px;
 }
 
 .card1{
@@ -182,6 +192,7 @@ button {
     height: 479px;
     margin-left: auto;
     margin-right: auto;
+    margin-top: 60px;
     color: #264653;
 }
 
@@ -209,11 +220,18 @@ button {
     margin-left: auto;
     margin-right: auto;
     margin-top: 50px;
+    margin-bottom: 250px;
     color: #264653
+    
 }
 
 .card2-1{
     display: flex;
+    margin-left: 50px;
+}
+.paragrafo5{
+    font-size: 60px;
+    margin-top: 50px;
 }
 
 /* footer ------------------------------------ */
